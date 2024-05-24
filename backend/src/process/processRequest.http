@@ -1,0 +1,13 @@
+POST http://localhost:3000/create-process
+
+
+
+### GET ALL PROCESSES
+GET http://localhost:3000/get-all
+
+
+### GET A Process ###
+GET http://localhost:3000/get-single/e64c3701-6029-4d6d-a726-113463207bd9
+
+### REMOVE a Process
+DELETE http://localhost:3000/delete/b8066769-83fe-47fa-837d-ec48ed36c1cf
